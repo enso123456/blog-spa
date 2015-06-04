@@ -1,0 +1,11 @@
+.mcontent{ 
+	margin:0 auto;
+	width:960px;
+	padding:20px;
+	background-color: #fff;
+	border-color: #ddd;
+	border-width: 1px;
+	border-radius: 4px 4px 0 0;
+	-webkit-box-shadow: none;
+	box-shadow: none; 
+}
