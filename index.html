@@ -10,8 +10,8 @@
          <div class="navbar-header">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                <ul class="nav navbar-nav">
-                 <li><a ui-sref="/">Blog</a></li>
-                 <li><a ui-sref="create">Create Post</a></li>
+                 <li ui-sref-active="active"><a ui-sref="postViewAll">Blog</a></li>
+                 <li ui-sref-active="active"><a ui-sref="create">Create Post</a></li>
                </ul>
             </div>
          </div>
@@ -23,9 +23,11 @@
    <script src="js/lib/jquery.min.js"></script>
    <script src="js/lib/bootstrap.min.js"></script>
    <script src="js/lib/angular.js"></script>
+   <script src="js/lib/angular-resource.min.js"></script>
    <script src="js/lib/angular-ui-router.js"></script>
 
    <script type="text/javascript" src="js/app.js"></script>
    <script type="text/javascript" src="js/PostCtrl.js"></script>
+   <script type="text/javascript" src="js/PostService.js"></script>
 </body>
 </html>
